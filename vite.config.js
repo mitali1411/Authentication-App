@@ -5,13 +5,13 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
-  server : {
-    proxy : {
-      '/api' : {
-        target : 'https://auth-backend-93eo.onrender.com',
-        changeOrigin : true,
-        secure : false,
-      }
-    }
-  }
+  // server : {
+  //   proxy : {
+  //     '/api' : {
+  //       target : 'https://auth-backend-93eo.onrender.com',
+  //       changeOrigin : true,
+  //       secure : false,
+  //     }
+  //   }
+  // }
 })

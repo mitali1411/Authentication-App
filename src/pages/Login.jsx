@@ -21,7 +21,7 @@ const Login = () => {
             toast.error(message);
         }
 
-    }, [user, isError. message, isSuccess]);
+    }, [user, isError, message, isSuccess]);
 
 
     const [formData, setFormData] = useState({
